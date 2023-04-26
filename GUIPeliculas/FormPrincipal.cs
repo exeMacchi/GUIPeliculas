@@ -51,8 +51,7 @@ namespace GUIPeliculas1
             {
                 File.CreateText(rutaFichero).Close();
                 cantidadPeliculas = 0;
-                MessageBox.Show("Base de datos creada con éxito. Reinicie la aplicación para " +
-                                "empezar a utilizarla.", "Base de datos creada",
+                MessageBox.Show("Base de datos creada con éxito.", "Base de datos creada",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
